@@ -1,4 +1,4 @@
-# st_topology
+# ar456-stationarity-lean
 
 Lean 4 / Mathlib formal verification companion to the paper
 **"Explicit Stationarity Regions for AR(4), AR(5), and AR(6) via Unit-Circle Analysis."**
@@ -13,7 +13,7 @@ lemmas, including:
   homeomorphic to an open Euclidean ball, with its boundary homeomorphic to the sphere
   $S^{p-1}$ (`Mu.lean`, `Nu.lean`, `RadialCoordinate.lean`, `Xi.lean`, `CrystalBall.lean`).
 - The general-degree results of Section 4.7: the two-step Step-down merge identity
-  (`TwoStepMerge.lean`) and the $\lceil p/2\rceil+1$ bound on the number of explicit
+  (`TwoStepMerge.lean`) and the $\lceil p/2\rceil$ bound on the number of explicit
   closed-form inequalities needed to describe $St(p)$ (`StepDown.lean`, `CountBound.lean`).
 - The elementary structural properties of Section 3.1-3.6: zero-extension scalability
   (`ZeroExt.lean`), coefficient sign symmetry (`SignSym.lean`), dimensional multiplicity
